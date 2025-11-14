@@ -21,4 +21,4 @@ def test_divide():
     assert divide(-4, 2) == -2
     assert divide(-4, -2) == 2
     assert divide(5, 0) == "Error: Division by zero is not allowed."
-    #python -m pytest .\test_calculator.py (ez kell a futtatáshoz)
+    #python -m pytest .\test_calculator.py -v (ez kell a futtatáshoz)
